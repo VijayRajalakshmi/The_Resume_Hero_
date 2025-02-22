@@ -1,0 +1,39 @@
+
+
+.about-container {
+    background: linear-gradient(to right,rgb(233, 19, 19), #182848);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-content {
+    max-width: 900px;
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd; /* Blue color */
+    margin-bottom: 15px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+  
+  .about-mission {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 20px;
+  }
+  

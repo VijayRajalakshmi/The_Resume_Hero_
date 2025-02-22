@@ -1,0 +1,65 @@
+/* Footer Container */
+.footer-container {
+  background: linear-gradient(to right,rgb(233, 19, 19), #182848);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Social Icons */
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  font-size: 40px;
+  color: white;
+  transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.instagram:hover { color:rgb(136, 23, 60); }
+.whatsapp:hover { color: #25D366; }
+.linkedin:hover { color: #0077B5; }
+
+/* Contact Section */
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color:blue;
+}
+
+.footer-contact a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+  color:blue;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 36px;
+}

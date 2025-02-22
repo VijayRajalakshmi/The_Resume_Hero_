@@ -1,0 +1,132 @@
+/* Header Container */
+.header-container {
+  background: linear-gradient(to right,rgb(233, 19, 19), #182848);
+  padding: 10px 0;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+
+}
+
+/* Header Content */
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Logo Section */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: yellow;
+}
+
+/* Header Button */
+.header-button button {
+  background: white;
+  color:rgb(224, 76, 39);
+  border: none;
+  margin:10px;
+  padding: 8px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-items:start;
+  justify-contentn:space-between;
+  text-align:center;
+}
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: -20px;
+  text-align:center;
+  margin-left: 40px; /* Moves elements slightly to the left */
+  padding-right: 20px; /* Adds space inside the container */
+  
+}
+.header-button button:hover {
+  background: skyblue;
+  color: green;
+
+}
+.header-button img{
+  width: 30px;  /* Adjust width */
+  height: 30px;   /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it scales well */
+}
+.ceo-info {
+  display: flex;
+  margin-left: 10px;
+  gap: 10px;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.ceo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.ceo-name {
+  font-weight: bold;
+  color: white;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-align:center;
+
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}

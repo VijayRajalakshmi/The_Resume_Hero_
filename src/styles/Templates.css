@@ -1,0 +1,33 @@
+.templates-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.templates-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.template-card {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.template-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Zoom-in effect */
+.template-card.zoomed {
+  transform: scale(1.5);
+  z-index: 10;
+}
